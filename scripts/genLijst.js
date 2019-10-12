@@ -37,14 +37,20 @@
             var html = document.getElementById(tabelID).innerHTML;
             for (var i = 0; i < rows.length; i++) {
                 html+="<tr>";
+                html+="<td>"+rows[i].speler.naam+"</td>";
                 html+="<td>"+rows[i].versie+"</td>";
                 html+="<td>"+rows[i].kaartwaarde+"</td>";
                 html+="</tr>";
+                // console.log(rows[i].speler.naam);
+
             } 
+
         }
         
         else{
             alert("probleem bij genereren van tabel");
         }
         document.getElementById(tabelID).innerHTML = html;
+        
     }
+
