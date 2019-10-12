@@ -66,17 +66,21 @@ ul {
     outline:1px dotted purple;  /* TEST Outline */
   } 
   .displaynaam{
+    font-family: "DINPro-Cond-Bold",Arial,sans-serif;
+    font-size: 22px;
     height: 50px;
     font-size: 40px;
     text-align: center;
     outline:1px dotted white;  /* TEST Outline */
   } 
   .displaytekstgetal{
+    font-family: "DINPro-Cond-Bold",Arial,sans-serif;
+    font-size: 2px;
     padding-top: 12px;
 
   }
   .displaylinks, .displayrechts{
-    padding: 0 43 0 43;
+    padding: 0 35 0 35;
     height: 200px;
     display: inline-block;
     outline:1px dotted blue;  /* TEST Outline */
@@ -87,4 +91,8 @@ ul {
   .snelheidtekst, .snelheidgetal{
     display: inline-block;
     font-size: 30px;
+  }
+  img{
+    margin-left: 80px;
+
   }
