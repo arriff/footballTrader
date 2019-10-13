@@ -18,45 +18,46 @@
     </div>
 
     <!-- <h1>Kaart viewer</h1> -->
+    <button style="width: 100; height: 50;" onclick="changename();">load card</button> <!-- test knop -->
     <div class="card">
         <div id="playercard">
             <div class="linker">
                 <div class="overall">99</div>
-                <div class="position">CAM</div><hr/>
-                <div class="nation"><img src="images/spelers/nederland.png"></div><hr/>
+                <div class="position" id="spelerpositie">CAM</div><hr/>
+                <div class="nation"><img id= "nationimg" src="images/spelers/nederland.png"></div><hr/>
                 <div class="club"><img src="images/spelers/ajax.png"></div>
             </div>
                 <div class="rechter">
                         <img src="images/spelers/blank_player.png">
                 </div>
                     <div class ="onder">
-                        <div class="displaynaam">AL SHARIF</div>
+                        <div class="displaynaam" id ="spelernaam">Arriff</div>
                         <div class="displaylinks">
                             <div class="displaytekstgetal">
-                                <div class="snelheidgetal">99</div>
+                                <div class="snelheidgetal" id="snl">99</div>
                                 <div class="snelheidtekst">Snelheid</div>
                             </div>
                             <div class="displaytekstgetal">
-                                <div class="snelheidgetal">99</div>
+                                <div class="snelheidgetal" id="stn">99</div>
                                 <div class="snelheidtekst">Schieten</div>
                             </div>     
                             <div class="displaytekstgetal">
-                                <div class="snelheidgetal">99</div>
+                                <div class="snelheidgetal" id="pas">99</div>
                                 <div class="snelheidtekst">Passen</div>
                                 </div>               
                         </div>
 
                         <div class="displayrechts">
                                 <div class="displaytekstgetal">
-                                    <div class="snelheidgetal">99</div>
+                                    <div class="snelheidgetal" id="dri">99</div>
                                     <div class="snelheidtekst">Dribbelen</div>
                                 </div>
                                 <div class="displaytekstgetal">
-                                    <div class="snelheidgetal">99</div>
+                                    <div class="snelheidgetal" id="vdg">99</div>
                                     <div class="snelheidtekst">Verdedigen</div>
                                 </div>     
                                 <div class="displaytekstgetal">
-                                    <div class="snelheidgetal">99</div>
+                                    <div class="snelheidgetal" id="fys">99</div>
                                     <div class="snelheidtekst">Fysiek</div>
                                 </div>                 
                             </div>
@@ -67,5 +68,4 @@
         </div>
     </div>
 </body>
-
 </html>

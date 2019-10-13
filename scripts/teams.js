@@ -35,7 +35,7 @@ class Competitie {
 competities[0] = new Competitie(0, "Eredivisie", teams, "Nederland");
 
 // teams aangemaakt id, naam, spelers en competitie
-teams[0] = new Team(0, "Ajax", spelers, competities);
+teams[0]=new Team(0,"Ajax",spelers,competities);
 teams[1] = new Team(1, "PSV", spelers, competities);
 teams[2] = new Team(2, "Feyenoord", spelers, competities);
 teams[3] = new Team(3, "Vitesse", spelers, competities);
