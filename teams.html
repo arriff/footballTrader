@@ -1,9 +1,10 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="styles/styles.css">
-        <script src="scripts/teams.js"></script>
         <script src="scripts/spelers.js"></script>
+        <script src="scripts/teams.js"></script>
         <script src="scripts/kaarten.js"></script>
+        <script src="scripts/genSpelers.js"></script>
         <script src="scripts/genLijst.js"></script>
     </head>
 <body onload="lijstMaken('tabelTeams')">
@@ -12,7 +13,7 @@
             <li><a href="teams.html">Teams</a></li>
             <li><a href="spelers.html">Spelers</a></li>
             <li><a href="kaarten.html">Kaarten</a></li>
-            <li><a href="kaartviewer.html">viewer</a></li>
+            <li><a href="kaartviewer.html">Viewer</a></li>
         </ul>
     </div>
 
@@ -21,9 +22,10 @@
             <h1>Lijst Teams</h1>
             <table id="tabelTeams">
                 <tr>
-                    <th>Team</th>
-                    <th>Land</th>
+                    <th>ID</th>
+                    <th>Club</th>
                     <th>Competitie</th>
+                    <th>Land</th>
                 </tr>
             </table>
         </div>

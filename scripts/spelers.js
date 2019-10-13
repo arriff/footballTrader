@@ -1,25 +1,47 @@
-spelers = [];
+var spelers = [];
+var personen = [];
+
+class Persoon{
+    naam;
+    nationaliteit;
+
+    constructor(Naam){
+        this.naam = Naam;
+        this.nationaliteit = "xx";
+    }
+}
+
 class Speler{
     id;
     naam;
-    leeftijd;
+    positie;
     snelheid;
-    kracht;
-    spelerwaarde;
+    schieten;
+    passen;
+    dribbelen;
+    verdedigen;
+    fysiek;
 
-    constructor(Id, Naam, Leeftijd, Snelheid, Kracht, Spelerwaarde){
+    constructor(Id, Naam, Teams, Competities, Positie, Snelheid, Schieten, Passen, Dribbelen, Verdedigen, Fysiek){
         this.id = Id;
         this.naam = Naam;
-        this.leeftijd = Leeftijd;
+        this.team = Teams;
+        this.competitie = Competities;
+        this.positie = Positie;
         this.snelheid = Snelheid;
-        this.kracht = Kracht;
-        this.spelerwaarde = Spelerwaarde;
+        this.schieten = Schieten;
+        this.passen = Passen;
+        this.dribbelen = Dribbelen;
+        this.verdedigen = Verdedigen;
+        this.fysiek = Fysiek;
     }
 }
- 
-    // spelers aangemaakt id,naam,leeftijd,snelheid,kracht,waarde
-    spelers[0] = new Speler(0,"Mohamed",26,80,70,10000);
-    spelers[1] = new Speler(1,"Kees",33,75,80,5000);
-    spelers[2] = new Speler(2,"Piet",25,70,70,5000);
-    spelers[3] = new Speler(3,"Peter",19,90,60,7000);
-    spelers[4] = new Speler(4,"Steven",35,75,85,4000);
+
+// persoon aangemaakt met Naam
+personen[0] = new Persoon("Daley Blind");
+personen[1] = new Persoon("neres");
+personen[2] = new Persoon("ziyech");
+personen[3] = new Persoon("onana");
+personen[4] = new Persoon("beek");
+    
+

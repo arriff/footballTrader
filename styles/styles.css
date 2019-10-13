@@ -33,11 +33,13 @@ ul {
   }
   
   /* playercard opmaak */
+
+
   #playercard{
     display: inline-block;
     width:200px;
     height:300px;
-    background-image: url("../images/bronze.png");
+    background-image: url("../images/gold.jpg");
     background-repeat:no-repeat;
     background-size: 200px 300px ;
     /* outline:1px dotted red;  TEST Outline */
@@ -45,23 +47,49 @@ ul {
   .linker{
     display: inline-block;
     width:70px;
-    height:130px;
-    margin-top: 20px;
+    height:125px;
+    margin-top: 34px;
     /* outline:1px dotted blue;  TEST Outline */
   }
   .linker div{
     
     display: inline-block;
     width: 70px;
-    height: 35px;
+    height: 20px;
+    margin: 3 0 3 0;
     /* outline:1px dotted blue;  TEST Outline */
 
   }
   .linker div img{
     display: block;
     margin: auto;
-    margin-top: 5px;
   }
+  .linker .club img{
+    width: 30px;
+    height: 30px;
+  }
+  .overall{
+    text-align: center;
+    font-family: "DINPro-Cond-Bold",Arial,sans-serif;
+    font-size: 25px;
+    padding-bottom: 2px;;
+  }
+  
+  .position{
+    text-align: center;
+    font-family: "DINPro-Cond-Bold",Arial,sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    width: 20px;
+    border-top: 2px solid #a17f1a;
+    margin: auto;
+}
 
   .rechter{
     float: right;
@@ -94,27 +122,38 @@ ul {
 
   }
   .displaylinks, .displayrechts{
-    padding: 0 10 0 10;
     height: 75px;
+    width: 98px;
     display: inline-block;
     /* outline:1px dotted blue;  TEST Outline */
   }
   .displayrechts{
-    margin-right: 12px;
-    float: right;
+    margin-right: 0px;
+    border-left: 1px solid black;
+
   }
   .displaylinks{
-    margin-left: 12px;
+    float: left;
+    margin-left: 0px;
   }
-  .snelheidtekst, .snelheidgetal{
+  .displaylinks div{
+    margin-left: 0px;
+  }
+  .snelheidtekst{
+    text-transform: uppercase;
     display: inline-block;
-    font-size: 12px;
+    font-size: 11px;
+  }
+  .snelheidgetal{
+    padding: 0 5 0 10;
+    display: inline-block;
+    font-size: 11px;
   }
   .rechter img{
-    margin-left: 15px;
-    margin-top: 30px;
-    width: 100px;
-    height: 100px;
+    margin-left: 0px;
+    margin-top: 18px;
+    width: 120px;
+    height: 120px;
 
   }
   .linker img{
